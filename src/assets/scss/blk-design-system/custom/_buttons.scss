@@ -122,7 +122,9 @@
   }
 }
 .btn-danger {
-  @include btn-styles($danger, $danger-states);
+  @include btn-styles(#ffa500, #ffa500);
+  background-color: #ffa500;
+  // border-radius: $border-radius-lg;
 }
 .btn-neutral {
   @include btn-styles($white, $white);
